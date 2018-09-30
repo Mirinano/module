@@ -16,7 +16,7 @@ def spilit_function(content, start_line=1, argument=None, punctuation="=", * , s
         ここに入力されたものを辞書のキーとして戻り値にします。
         指定がない場合は、punctuationに指定された文字が含まれるかどうかを上から順にすべてチェックし、
         含まれていれば引数のある行、として処理します。無くなり次第終わりにします。
-    spilit: str
+    split: str
         引数の区切り文字です。デフォルトは改行。
         改行以外のおススメの引数は「|」。
     rest_return: bool
