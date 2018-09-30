@@ -24,7 +24,7 @@ def spilit_function(content, start_line=1, argument=None, punctuation="=", * , s
         Trueの場合、キーを「rest_first」「rest_last」として出力します。
     ---------
     return: dict
-        辞書形式で帰します。
+        辞書形式で返します。
     """
     return_dict = dict()
     content_list = content.split(split)
